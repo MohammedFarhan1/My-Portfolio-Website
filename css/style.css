@@ -619,7 +619,7 @@ a.awilo_fn_circle_link:hover:after{
 	bottom: 0;
 }
 #about{
-	padding: 160px 0 80px 0;
+	padding: 40px 0 50px 0;
 }
 /*---------------------------------------------------*/
 /*	04) Shortcode: Divider
@@ -663,7 +663,7 @@ a.awilo_fn_circle_link:hover:after{
 
 
 #information .awilo_fn_title{
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 /*---------------------------------------------------*/
 /*	06) Shortcode: Service
@@ -763,7 +763,7 @@ a.awilo_fn_circle_link:hover:after{
 	text-decoration: none;
 }
 #information .awilo_fn_services{
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 /*---------------------------------------------------*/
 /*	07) Shortcode: Skills
@@ -843,7 +843,7 @@ a.awilo_fn_circle_link:hover:after{
 
 
 #information{
-	padding: 193px 0 180px 0;
+	padding: 80px 0 80px 0;
 }
 
 
@@ -1246,7 +1246,7 @@ a.awilo_fn_circle_link:hover:after{
 
 
 #portfolio{
-	padding: 193px 0 195px 0;
+	padding: 80px 0 80px 0;
 }
 /*---------------------------------------------------*/
 /*	12) 5 stars
@@ -1290,7 +1290,7 @@ a.awilo_fn_circle_link:hover:after{
 	width: 100%;
 	float: left;
 	clear: both;
-	margin-top: 79px;
+	margin-top: 0px;
 }
 .awilo_fn_blog_list li,
 .awilo_fn_blog_list ul{
@@ -1475,7 +1475,7 @@ a.awilo_fn_circle_link:hover:after{
 	}
 }
 #blog{
-	padding: 193px 0 150px 0;
+	padding: 80px 0 80px 0;
 }
 /*---------------------------------------------------*/
 /*	14) Shortcode: Contact Form
@@ -1484,7 +1484,7 @@ a.awilo_fn_circle_link:hover:after{
 	width: 100%;
 	float: left;
 	clear: both;
-	margin-top: 130px;
+	margin-top: 10px;
 	margin-bottom: 133px;
 }
 
@@ -1573,7 +1573,7 @@ a.awilo_fn_circle_link:hover:after{
 }
 
 #contact{
-	padding: 193px 0 181px 0;
+	padding: 80px 0 80px 0;
 }
 /*---------------------------------------------------*/
 /*	16) Shortcode: Big List
@@ -1953,19 +1953,19 @@ a.awilo_fn_circle_link:hover:after{
 		margin-bottom: 100px;
 	}
 	#information{
-		padding: 93px 0 80px 0;
+		padding: 80px 0 80px 0;
 	}
 	.awilo_fn_services ul li{
 		width: 50%;
 	}
 	#portfolio{
-		padding: 93px 0 95px 0;
+		padding: 80px 0 80px 0;
 	}
 	#blog{
-		padding: 93px 0 50px 0;
+		padding: 80px 0 50px 0;
 	}
 	#contact{
-		padding: 93px 0 81px 0;
+		padding: 80px 0 80px 0;
 	}
 	#partners{
 		padding: 91px 0 95px 0;
