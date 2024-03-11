@@ -521,17 +521,21 @@ a.awilo_fn_circle_link:hover:after{
 	top: 0;
 }
 .sendMessageButton {
-	font-family: 'Muli';
+font-family: 'Muli';
     background-color: transparent;
     color: white;
     border: 2px solid purple;
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 16px;
 	overflow: hidden;
     cursor: pointer;
 	border-radius: 2px;
 	transform: translateZ(0.13s);
 	font-weight: bold;
+}
+.sendMessageButton:hover {
+    background-color: purple;
+    color: black;
 }
 .awilo_fn_wrapper .awilo_fn_main_button:hover span:nth-child(1){
 	opacity: 0;
