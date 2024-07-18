@@ -638,7 +638,7 @@ font-weight: bold;
 	bottom: 0;
 }
 #about{
-	padding: 40px 0 50px 0;
+	padding: 30px 0 50px 0;
 }
 /*---------------------------------------------------*/
 /*	04) Shortcode: Divider
@@ -646,7 +646,7 @@ font-weight: bold;
 .awilo_fn_divider{
 	width: 100%;
 	position: relative;
-	height: 1px;
+	height: 5px;
 	background-color: rgba(255,255,255,.05);
 	float: left;
 	clear: both;
@@ -1949,6 +1949,48 @@ font-weight: bold;
 }
 #partners{
 	padding: 191px 0 195px 0;
+}
+
+/*---------------------------------------------------*/
+/* Notification
+/*---------------------------------------------------*/
+
+@media (min-width: 600px) {
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    background-color: #1e1427;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+ transition: opacity 0.5s;
+}
+
+.notification.show {
+    opacity: 1;
+}
+}
+
+@media (max-width: 768px) {
+	.notification {
+		position: fixed;
+		top: 20px;
+		right: 40px;
+		background-color: #1e1427;
+		color: white;
+		padding: 10px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		opacity: 0;
+	 transition: opacity 0.5s;
+	}
+	
+	.notification.show {
+		opacity: 1;
+	}
 }
 /*---------------------------------------------------*/
 /*	22) Responsive
