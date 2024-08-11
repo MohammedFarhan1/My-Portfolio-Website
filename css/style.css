@@ -1977,15 +1977,16 @@ font-weight: bold;
 @media (max-width: 768px) {
 	.notification {
 		position: fixed;
-		top: 20px;
-		right: 40px;
-		background-color: #1e1427;
-		color: white;
-		padding: 10px;
-		border-radius: 5px;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-		opacity: 0;
-	 transition: opacity 0.5s;
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    background-color: #ae45ff;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: center;
 	}
 	
 	.notification.show {
