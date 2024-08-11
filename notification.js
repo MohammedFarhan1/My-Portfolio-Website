@@ -1,11 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const notification = document.getElementById("notification");
+window.onload = function() {
+    const notification = document.getElementById('notification');
+    notification.style.opacity = '1';
 
-    // Show the notification
-    notification.classList.add("show");
-
-    // Hide the notification after 5 seconds
     setTimeout(() => {
-        notification.classList.remove("show");
-    }, 1000);
-});
+        notification.style.opacity = '0';
+    }, 1000); // 3000 milliseconds = 3 seconds
+};
